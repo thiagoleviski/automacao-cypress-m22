@@ -1,0 +1,7 @@
+{
+  "baseUrl":"http://lojaebac.ebaconline.art.br/",
+  "testFiles": "**/*.feature",
+  "ignoreTestFiles": ["*.js", "*.ts", "*.md"],
+  "viewportWidth": 1360,
+  "viewportHeight": 790
+}
