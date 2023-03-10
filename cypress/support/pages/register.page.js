@@ -6,7 +6,7 @@ class RegisterPage {
 
     register(user, pass){
         this.#email.wait(200).type(user, {force: true})
-        this.#pass.type(pass)
+        this.#pass.type(pass,{log:false})
         this.#register.click()
     }
 }
