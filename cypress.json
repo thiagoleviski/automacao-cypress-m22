@@ -3,5 +3,12 @@
   "testFiles": "**/*.feature",
   "ignoreTestFiles": ["*.js", "*.ts", "*.md"],
   "viewportWidth": 1360,
-  "viewportHeight": 790
+  "viewportHeight": 790,
+  "reporter":"mochawesome",
+  "reporterOptions": {
+    "reportDir": "./cypress/results",
+    "overwrite": false,
+    "html": false,
+    "json": true
+  }
 }
